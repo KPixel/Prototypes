@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawCommunication.Net", "Raw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawCommunication.PeerChat.App", "RawCommunication.PeerChat.App\RawCommunication.PeerChat.App.csproj", "{648E0164-3353-4806-9637-8D8CD5819F89}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RawPipelines.PeerChat.App", "RawPipelines.PeerChat.App\RawPipelines.PeerChat.App.csproj", "{B882DE11-403F-42CD-B0B0-52C2ECEDE7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawPipelines.Net", "RawPipelines.Net\RawPipelines.Net.csproj", "{F07B0E15-46D4-4F6C-8B6E-EF1B13501255}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{648E0164-3353-4806-9637-8D8CD5819F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{648E0164-3353-4806-9637-8D8CD5819F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{648E0164-3353-4806-9637-8D8CD5819F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B882DE11-403F-42CD-B0B0-52C2ECEDE7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B882DE11-403F-42CD-B0B0-52C2ECEDE7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B882DE11-403F-42CD-B0B0-52C2ECEDE7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B882DE11-403F-42CD-B0B0-52C2ECEDE7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07B0E15-46D4-4F6C-8B6E-EF1B13501255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07B0E15-46D4-4F6C-8B6E-EF1B13501255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07B0E15-46D4-4F6C-8B6E-EF1B13501255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07B0E15-46D4-4F6C-8B6E-EF1B13501255}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

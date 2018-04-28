@@ -5,9 +5,9 @@ using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace RawCommunication.Net
+namespace RawPipelines.Net
 {
-    public class SocketAwaitable : ICriticalNotifyCompletion, IDisposable
+    internal class SocketAwaitable : ICriticalNotifyCompletion, IDisposable
     {
         private static readonly Action CallbackCompleted = () => { };
 
@@ -60,7 +60,7 @@ namespace RawCommunication.Net
         }
     }
 
-    public static class SocketExtensions
+    internal static class SocketExtensions
     {
         public static SocketAwaitable AcceptAsync(this Socket socket, SocketAwaitable awaitable)
         {

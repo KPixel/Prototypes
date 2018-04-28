@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp2.1;net471</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>RawPipelines.PeerChat</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RawPipelines.Net\RawPipelines.Net.csproj" />
+  </ItemGroup>
+
+</Project>
