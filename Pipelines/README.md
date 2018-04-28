@@ -45,6 +45,8 @@ For more technical details, please read:
 - https://msdn.microsoft.com/en-us/magazine/mt814808.aspx
 - https://github.com/dotnet/corefxlab/blob/master/docs/specs/span.md
 - https://github.com/dotnet/corefxlab/blob/master/docs/specs/memory.md
+- Upcoming Span doc: https://github.com/dotnet/docs/issues/4400
+- Upcoming Memory doc: https://github.com/dotnet/docs/issues/4823
 
 # Understanding System.IO.Pipelines
 
@@ -190,3 +192,6 @@ For example: In Kestrel (and other HTTP servers), Node A is the user's browser, 
 # Implementing Microsoft.AspNetCore.Connections
 
 TODO
+
+ConnectionContext holds the pair of DuplexPipes and is typically created by a Connection that uses the Transport DuplexPipe internally.
+ConnectionHandler uses the Application DuplexPipe.
